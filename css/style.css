@@ -1,0 +1,227 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+header {
+    background: rgb(145, 14, 227);
+    width: 100%;
+    padding: 10px;
+    color: white;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    z-index: 2;
+}
+
+#left {
+    display: flex;
+    align-items: center;
+}
+
+#sp{
+    margin-left: 20px;
+    border: 1px solid white;
+    border-radius: 10px;
+    width: 200px;
+    height: 40px;
+    font-size: 0.8rem;
+    letter-spacing: 1px;
+    padding: 5px;
+}
+
+#sp p#vtex{
+    color: gray;
+}
+
+#sp p{
+    margin-left: 5px;
+}
+
+#right {
+    display: flex;
+}
+
+#right > img {
+    width: 30px;
+    border-right: 1px solid gray;
+    padding: 25px 30px;
+}
+
+#user {
+    display: flex;
+    width: 250px;
+    align-items: center;
+}
+
+#user p{
+    margin: 20px;
+}
+
+aside {
+    display: flex;
+    flex-direction: column;
+    width: 80px;
+    background: #F6F6F6;
+    justify-content: space-between;
+    position: fixed;
+    height: 550px;
+    top: 80px;
+}
+
+aside div {
+    width: 40px;
+    margin: 30px auto;
+}
+
+#cima img{
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+#baixo img{
+    background: #000;
+    border-radius: 10px;
+}
+
+main{
+    display: flex;
+    width: 600px;
+    position: relative;
+    top: 80px;
+    z-index: 1;
+}
+
+article{
+    position: relative;
+    left: 58px;
+}
+
+#pesquisa-cep{
+    margin-left: 40px;
+}
+
+#add-cep{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+}
+
+#add-cep input{
+    width: 200px;
+    border-radius: 10px;
+    padding: 15px;
+    border: 1px solid gray;
+    opacity: 0.5;
+}
+
+#add-cep button{
+    width: 250px;
+    margin-left: 20px;
+    background: rgb(181, 11, 232);
+    border: 0px;
+    border-radius: 10px;
+    padding: 10px 30px 10px 10px;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+#add-cep button:hover{
+    cursor: pointer;
+}
+
+button img {
+    margin-right: 30px;
+}
+
+#ceps{
+    width: 500px;
+    margin-top: 30px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #dfdcdcfd;
+}
+
+#selected-cep{
+    padding: 10px 0px;
+}
+
+#ceps button{
+    margin-left: 20px;
+    background: rgb(181, 11, 232);
+    border: 0px;
+    border-radius: 10px;
+    padding: 10px;
+    width: 250px;
+    color: white;
+    position: relative;
+    left: 232px;
+    cursor: pointer;
+}
+
+.adicionados{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.adicionados img{
+    margin-right: 20px;
+}
+
+.adicionados p, .esquerda span{
+    color: #c2bfbffd;
+}
+
+.adicionados span, .esquerda p{
+    font-weight: bold;
+    color: #000;
+}
+
+.address{
+    display: flex;
+    justify-content: space-between;
+    background: white;
+    margin-left: 40px;
+    margin-top: 30px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.esquerda{
+    display: flex;
+    padding: 30px 10px;
+}
+
+.esquerda img{
+    width: 20px;
+    margin-right: 10px;
+}
+
+.esquerda p{
+    display: flex;
+    flex-direction: column;
+}
+
+.esquerda span{
+    font-size: 0.9rem;
+}
+
+.direita{
+    display: flex;
+    align-items: center;
+    padding-right: 25px;
+}
+
+.direita p{
+    color: rgb(181, 11, 232);
+    border-right: 1px solid rgb(240, 241, 241);
+    padding: 30px 20px;
+    margin-right: 20px;
+}
