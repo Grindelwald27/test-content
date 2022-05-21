@@ -95,7 +95,7 @@ btnCreate.onclick = function(){
 
         for(let i = 0; i < cep_listado.length; i++){
 
-            let url = `http://viacep.com.br/ws/${cep_listado[i]}/json/`;
+            let url = `https://viacep.com.br/ws/${cep_listado[i]}/json/`;
             let dados = await fetch(url);
             let endereco = await dados.json();
 
